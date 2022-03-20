@@ -39,7 +39,12 @@ UI 設計自行以 Figma 繪製，
   - 點＋–可放大、縮小地圖
 
 ## 介面展示
-- 藥局列表及地圖
-  ![Desktop UI](https://imgur.com/iy4udjP)
-  ![Mobile UI](https://imgur.com/ehUBI4e)
-  ![Color Guildline](https://imgur.com/4l0pWV8)
+- Desktop UI
+  ![Desktop UI](https://i.imgur.com/iy4udjP.jpeg)
+
+- Mobile UI
+  ![Mobile UI](https://i.imgur.com/ehUBI4e.jpeg)
+
+- Color Guildline
+
+  ![Color Guildline](https://i.imgur.com/4l0pWV8.png)
