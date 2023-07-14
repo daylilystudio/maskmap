@@ -1,4 +1,4 @@
-# 口罩資訊地圖網
+# Mask Info Map for Taiwan
 使用 Vue3 + Vue Cli 4.5.15、
 Mapbox GL JS 地圖框架，
 並以 Axios 串接口罩API之資訊應用網站。
@@ -6,10 +6,10 @@ Mapbox GL JS 地圖框架，
 UI 設計自行以 Figma 繪製，
 並使用 Tailwind 搭配 SCSS 切版。
 
-## 線上展示
+## Online Demo
 [Demo](https://daylilystudio.github.io/maskmap/)
 
-## 功能
+## Feature
 1. 左側欄
 - 收合按鈕可將左側欄收起
 - 初始狀態：
@@ -38,7 +38,7 @@ UI 設計自行以 Figma 繪製，
   - 點i可查看口罩數量顏色提示等資訊解說
   - 點＋–可放大、縮小地圖
 
-## 介面展示
+## UI Display
 - Desktop UI
   ![Desktop UI](https://i.imgur.com/iy4udjP.jpeg)
 
