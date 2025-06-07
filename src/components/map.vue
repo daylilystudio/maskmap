@@ -13,6 +13,11 @@ export default {
     maskCutPoint: [Number]
   },
   inject: ['data'],
+  data () {
+    return {
+      mapToken: process.env.VUE_APP_MAP_TOKEN
+    }
+  },
   methods: {
     createMarker (arr) {
       arr.forEach(point => {
@@ -88,7 +93,7 @@ export default {
     }
   },
   mounted () {
-    mapboxgl.accessToken = 'pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw'
+    mapboxgl.accessToken = this.mapToken
     this.map = new mapboxgl.Map({
       attributionControl: false,
       container: 'map', // container ID
